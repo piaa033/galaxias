@@ -1,0 +1,24 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+
+  .card {
+    height: 400px; /* Ajusta la altura de las tarjetas según tus necesidades */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Hace que el cuerpo de la tarjeta use todo el espacio disponible */
+    overflow-y: auto; /* Permite el desplazamiento vertical */
+}
+
+.card-img-top {
+    height: 200px; /* Establece una altura fija para las imágenes */
+    object-fit: cover; /* Ajusta la imagen para cubrir el área */
+}
+
+/* Ajustes para que el contenido ocupe espacio correctamente */
+.card-title, .card-text {
+    margin-bottom: 0.5rem; /* Espaciado entre elementos */
+}
